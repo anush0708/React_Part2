@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+h2,h3{
+  text-align: center;
+}
+.details{
+  background-color: rgb(230, 197, 165);
+  color: rgb(3, 1, 1);
+  text-align:justify;
+  height: 20rem;
+  width: 20rem;
+  margin-left: 30%;
+  border: #d40000;
+  border-radius: 2vh;
+
+}
+li{
+  list-style: none;
+  
+  margin: 1rem;
+}
+form{
+  text-align: center;
+  border: #d40000;
+  border-radius: 2vh;
+}
+input{
+  color: white;
+  background-color: black;
+}
+button{
+
+  border-top: 2rem;
+  height: 2rem;
+  width: 5rem;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.phonebook{
+  background-color: #ffffff;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
