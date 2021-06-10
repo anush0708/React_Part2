@@ -1,40 +1,7 @@
 .App {
   text-align: center;
 }
-h2,h3{
-  text-align: center;
-}
-.details{
-  background-color: rgb(230, 197, 165);
-  color: rgb(3, 1, 1);
-  text-align:justify;
-  height: 50rem;
-  width: 50rem;
-  margin-left: 30%;
-  border: #d40000;
-  border-radius: 2vh;
 
-}
-li{
-  list-style: none;
-  
-  margin: 1rem;
-}
-form{
-  text-align: center;
-  border: #d40000;
-  border-radius: 2vh;
-}
-input{
-  color: white;
-  background-color: black;
-}
-button{
-
-  border-top: 2rem;
-  height: 2rem;
-  width: 5rem;
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
